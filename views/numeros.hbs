@@ -1,0 +1,17 @@
+<h1> Suma de numeros</h1>
+<form action="/numeros" method="post">
+  <label>Numero 1</label>
+  <input "text-align:right" type="text" name="txtNumero1" value="{{txtNumero1}}">
+  <label>Numero 2</label>
+  <input style="text-align:right" type="text" name="txtNumero2" value="{{txtNumero2}}">
+  <button type="submit" name="btnSumar"
+    value="sumar"> Sumar</button>
+</form>
+
+<div>
+  <ul>
+    {{#each nume}}
+    <li>{{numero1}} || {{numero2}} || {{respuesta}} </li>
+    {{/each}}
+  </ul>
+</div>
